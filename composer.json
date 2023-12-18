@@ -1,0 +1,24 @@
+{
+    "name": "de127/utility",
+    "description": "Utility services for application.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "de127"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "De127\\Utility\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "De127\\Utility\\UtilityServiceProvider"
+            ]
+        }
+    }
+}
